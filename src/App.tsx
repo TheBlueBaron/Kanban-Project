@@ -1,8 +1,8 @@
-import { Column } from "./Column";
-import { AppContainer } from './styles';
-import { AddNewItem } from "./AddNewItem";
-import { useAppState} from "./state/AppStateContext";
-import { addList } from "./state/actions";
+import { Column } from "./Column"
+import { AppContainer } from './styles'
+import { AddNewItem } from "./AddNewItem"
+import { useAppState} from "./state/AppStateContext"
+import { addList } from "./state/actions"
 
 export const App = () => {
   const { lists, dispatch } = useAppState()
@@ -20,4 +20,4 @@ export const App = () => {
   )
 }
 
-export default App;
+export default App

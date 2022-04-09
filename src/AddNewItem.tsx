@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { AddItemButton } from "./styles";
+import { useState } from "react"
+import { AddItemButton } from "./styles"
 import { NewItemForm } from "./NewItemForm"
 
 type AddNewItemProps = {
@@ -9,8 +9,8 @@ type AddNewItemProps = {
 }
 
 export const AddNewItem = (props: AddNewItemProps) => {
-    const [showForm, setShowForm] = useState(false);
-    const { onAdd, toggleButtonText, dark } = props;
+    const [showForm, setShowForm] = useState(false)
+    const { onAdd, toggleButtonText, dark } = props
 
     if (showForm) {
         return (
